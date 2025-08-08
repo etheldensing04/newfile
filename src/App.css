@@ -1,0 +1,133 @@
+.App {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #f8f9fa;
+}
+
+h2{
+  color: black !important;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: darkcyan !important;
+  padding: 1rem;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-left: 1.5rem;
+}
+
+/* Product cards */
+.product-col {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+}
+
+/* Leaner card style */
+.lean-card {
+  min-width: 0;
+  padding: 0.5rem 0.5rem;
+}
+
+.card {
+  border: 3px solid #ddd;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: black;
+}
+
+/* Price styling */
+.text-muted {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: darkcyan !important;
+}
+
+/* Button styling */
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: darkcyan;
+  border-color: darkcyan;
+}
+
+/* Cart styling */
+.sticky-top {
+  top: 20px;
+}
+
+/* Form styling */
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  transition: border-color 0.2s ease;
+}
+
+.form-control:focus {
+  border-color: blue;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Loading and empty states */
+.text-center {
+  color: #666;
+}
+
+/* Badge styling */
+.badge {
+  font-size: 0.8rem;
+  padding: 0.4rem 0.6rem;
+}
+
+.stocks-badge {
+  background-color: darkcyan !important;
+  color: #fff;
+}
+
+.modal-content {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+  border-bottom: 1px solid #eee;
+  background-color: #f8f9fa;
+}
+
+.modal-footer {
+  border-top: 1px solid #eee;
+  background-color: #f8f9fa;
+}
+
+.add-btn {
+  background-color: whitesmoke !important;
+  color: darkcyan !important;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
